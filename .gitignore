@@ -3,6 +3,13 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+
+./assets/movie.mpeg
+./assets/movie.mp4
+../assets/movie.mpeg
+../assets/movie.mp4
+/assets/movie.mpeg
+/assets/movie.mp4
 # User-specific files
 *.rsuser
 *.suo
