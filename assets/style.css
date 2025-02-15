@@ -1,0 +1,147 @@
+/* * { */
+/* background-image: url("https://www.behance.net/gallery/209581411/Mood/modules/1229770495"); */
+/* background-image: center, contain, no-repeat; */
+*/
+/* bglayer: "assets/bckg.png"; */
+/* background-image: radial-gradient(circle, #0000 45%, #000f 48%); */
+*/
+/* margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    min-height: 100%;
+    line-height: 2;
+    font-family: sans-serif;
+    /* background-image: url("bckg.jpg"); */
+/* opacity: 0.9; */
+*/
+
+/* } */
+p,
+nav,
+body {
+    background-image: url('/Scripts/Mysite/assets/bckg.jpeg');
+    /* background-repeat: no-repeat; */
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+header {
+    text-align: center;
+    box-sizing: content-box;
+    display: block;
+    padding: 40px;
+    color: black;
+    text-transform: capitalize;
+}
+
+
+
+h1 {
+    font-style: bold;
+    font-size: 32;
+}
+
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-weight: bolder;
+    outline: 10px dotted blueviolet;
+    text-align: center;
+    color: brown;
+    line-height: 2;
+}
+
+h3 {
+    font-family: cursive;
+    font-weight: 400;
+}
+
+br {
+    line-height: 90px;
+}
+
+.buttons {
+    background: scroll;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    text-align: center;
+    align-items: center;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+nav,
+nav.navbar,
+ol {
+    /* content-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    display: center, flex;
+    font-size: large;
+    font-weight: 1000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration-color: whitesmoke;
+    text-shadow: 0cqmax;
+}
+
+/* select,
+option,
+optgroup,
+pre,
+select,
+textarea
+textarea-color {
+    color: blanchedalmond;
+    width: 100%;
+    color: #ff0000;
+    color: blanchedalmond;
+    width: 100%;
+    } */
+
+
+@media screen and (max-width: 780px) {
+
+    img,
+    main,
+    nav {
+        display: block;
+        display: float;
+    }
+}
+
+input.div {
+    background-color: azure;
+    width: 25%
+}
+
+button {
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    /* justify-item: center; */
+}
+
+code {
+    font-size: 100%;
+    font-family: inherit;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+footer {
+    font-size: medium;
+}
+
+footer.h1 {
+    font-size: 100%;
+    font-family: inherit;
+    text-decoration-color: aliceblue;
+}

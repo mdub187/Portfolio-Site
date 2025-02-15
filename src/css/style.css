@@ -1,0 +1,150 @@
+html {
+    /* margin: 0; */
+    /* padding: 0; */
+    /* font-family: sans-serif; */
+    /* box-sizing: content-box; */
+    /* backgorund-image: no-repeat; */
+    /* background-image: src("../assets/cloudmtn.jpg"); */
+
+
+}
+
+input pseudo "-internal-media-controls-overlay-cast-button" type="button" aria-label="play on remote device" style="display: none;"
+
+@media screen and (min-width: 852px) {
+    layout: responsive;
+    Add media query styles here if needed
+}
+
+div main,
+section,
+body {
+    text-align: center;
+    min-height: 100%;
+    line-height: 1.5;
+    font-family: sans-serif;
+    opacity: 0.9;
+    cursor: auto;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    box-sizing: content-box;
+    display: block;
+    padding: 40px;
+    color: black;
+}
+
+
+h1 {
+    font-style: bold;
+    font-size: 32;
+}
+
+h2 {
+    font-family: cursive;
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+    color: brown;
+    line-height: 2;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-weight: bolder;
+}
+
+h3 {
+    font-family: cursive;
+    font-weight: bolder;
+
+    .input {
+        height: 100px;
+
+    }
+}
+
+br {
+    line-height: 90px;
+}
+
+nav-item {
+    display: center, flex;
+    font-size: large;
+    font-weight: 1000;
+    font-family: 'Gill Sans',
+        'Gill Sans MT',
+        'Calibri',
+        'Trebuchet MS',
+        'sans-serif';
+    text-decoration-color: blue;
+    text-shadow: 0cqmax;
+}
+
+select,
+option,
+optgroup,
+pre {
+    width: 100%;
+}
+
+input text-area,
+input,
+[type=text] {
+    bg-color: white;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+a.reverted {
+    color: revert;
+}
+
+input {
+    flex: inherit;
+    width: 25%
+}
+
+button {
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+
+    button:active {
+        background-color: hsla(50, 33%, 25%, .75);
+        transform: trnaslateY(4px)
+    }
+}
+
+code {
+    font-size: 100%;
+    font-family: inherit;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+h3,
+h4,
+h5 {
+    text-rendering: auto;
+    font-size: inherit;
+    color: black;
+}
+
+footer,
+div.iframe {
+    flex: row;
+    position: static;
+    float: bottom;
+    relx: -50px
+}

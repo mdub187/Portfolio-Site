@@ -1,0 +1,35 @@
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+/* background-image {
+    background-image: url('./assets/bckg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+h1,
+body,
+button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+
+.body {
+    /* background-image: src('./assets/bckg.jpeg'); */
+    font-size: 32;
+    font-style: bold;
+    align-content: center;
+    padding: 10px;
+    padding-right: 55px;
+}

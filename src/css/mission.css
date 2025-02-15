@@ -1,0 +1,14 @@
+h1 {
+    text-shadow: 0pc;
+    font-size: 32;
+    font-style: bold;
+    text-orientation: sideways;
+}    
+
+::backdrop {
+    background-image: url('./assets/forrest,jpeg');
+    color: white;
+    font-size: 32;
+    font-style: bold;
+    text-orientation: sideways;
+}
